@@ -55,7 +55,7 @@ int pushToStack(st *myStack, int value)
 //LIFO order
 void printData(st *myStack)
 {
-    printf("LIFO Order \n");
+    //printf("LIFO Order \n");
     int countData=0;
     for(int i=MAXOFSTACK-1;i>myStack->top;i--)
     {
@@ -70,7 +70,7 @@ void printData(st *myStack)
 void printDataNormal(st *myStack)
 {
     int countData=0;
-    printf("Normal Order \n");
+    //printf("Normal Order \n");
     for(int i=myStack->top+1;i < MAXOFSTACK ;i++)
     {
         countData++;
